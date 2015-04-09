@@ -72,4 +72,6 @@ Vagrant.configure("2") do |config|
     sudo apt-get update
     sudo apt-get install R
     SHELL
+  config.vm.provision "shell",path: "vim_setup.sh"
+  config.vm.provision "shell",path: "R_setup.R"
 end
