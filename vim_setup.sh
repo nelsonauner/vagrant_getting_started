@@ -1,3 +1,4 @@
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-curl -LSso ~/.vim/https://raw.githubusercontent.com/nelsonauner/vim/master/_vimrc
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://raw.githubusercontent.com/nelsonauner/vim/master/_vimrc ~/.vimrc
+#install from command line
+vim +PluginInstall +qall
