@@ -8,11 +8,11 @@ local({r <- getOption("repos")
                   options(repos=r)
 })
 
-
-install.packages("bigmemory")
-install.packages("biganalytics")
-install.packages("bigtabulate")
-install.packages("ffbase")
-install.packages("LaF")
-install.packages("ETLUtils")
+install.packages("Rcpp",quiet=TRUE)
+install.packages("bigmemory",quiet=TRUE)
+install.packages("biganalytics",quiet=TRUE)
+install.packages("bigtabulate",quiet=TRUE)
+install.packages("ffbase",quiet=TRUE)
+install.packages("LaF",quiet=TRUE)
+install.packages("ETLUtils",quiet=TRUE)
 
