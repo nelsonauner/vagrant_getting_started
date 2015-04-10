@@ -1,2 +1,3 @@
-apt-get install r-base -y 
+#!/bin/bash
+sudo apt-get install vim r-base git -y
 
